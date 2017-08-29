@@ -10,8 +10,6 @@
 
     <!-- Style for the button -->
     <style name="CustomFontStyle">
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">wrap_content</item>
         <item name="android:capitalize">characters</item>
         <item name="android:typeface">monospace</item>
         <item name="android:textSize">12pt</item>
@@ -23,9 +21,11 @@
         <item name="android:layout_margin">8dp</item>
     </style>
 
-    <style name="CustomTextViewStyle">
+    <!-- TextViewStyle Inheritance style from custom font -->
+    <style name="CustomTextViewStyle" parent="CustomFontStyle">
         <item name="android:padding">4dp</item>
         <item name="android:gravity">center</item>
     </style>
+
 
 </resources>
