@@ -8,6 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- Style for the button -->
     <style name="CustomFontStyle">
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -19,6 +20,12 @@
 
     <style name="CustomButtonStyle">
         <item name="android:background">#00FF00</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <style name="CustomTextViewStyle">
+        <item name="android:padding">4dp</item>
+        <item name="android:gravity">center</item>
     </style>
 
 </resources>
